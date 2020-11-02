@@ -988,6 +988,7 @@ small{
 .social-container .slider-button>button {
     background-color: transparent;
     border: none;
+    outline: none;
 }
 .carousel .slick-track {
     width: 5000px;
@@ -1019,7 +1020,7 @@ svg:not(:root) {
 @media screen and (max-width: 430px){
     .slick-current{
         outline: none;
-        width: 310px;
+        width: 300px;
     }
 }
 .social-item {
