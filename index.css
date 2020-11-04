@@ -886,10 +886,12 @@ small{
     line-height: 44px;
     margin: 0 20px;
 }
-.social-container_carousel {
-    margin-bottom: 100px;
+.social-container_carousel{
+    margin-bottom:100px;
 }
-.carousel.stepped {
+
+
+.carousel.stepped{
     width: 1440px;
     margin: 0 auto;
 }
@@ -897,14 +899,6 @@ small{
     max-width: 1440px;
     width: 100%;
 }
-
-
-
-
-
-
-
-
 .carousel .slick-slider {
     margin: 0 auto;
     position: relative;
@@ -913,18 +907,12 @@ small{
     user-select: none;
     touch-action: pan-y;
 }
-@media screen and (max-width: 375px){
-    .social-container .carousel .slick-slider {
-        width: 250px;
-    }
-}
+
 @media screen and (min-width: 320px){
     .carousel.stepped .slick-slider {
         width: 300px;
     }
 }
-
-
 @media screen and (min-width: 608px){
     .carousel.stepped .slick-slider {
         width: 456px;
@@ -945,7 +933,6 @@ small{
         width: 1368px;
     }
 }
-
 .carousel .slider-button {
     position: absolute;
     top: 0;
@@ -956,28 +943,9 @@ small{
 .carousel .slider-button.slider-left {
     left: -48px;
 }
-.carousel .slider-button {
-    position: absolute;
-    top: 0;
-    padding: 0;
-    z-index: 1;
-    height: 100%;
-}
 .carousel .slider-button.slider-right {
     right: -48px;
 }
-
-
-.carousel .slick-slider .slick-list, .carousel .slick-slider .slick-track {
-    transform: translateZ(0);
-}
-.carousel .slick-list {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    padding: 0;
-}
-
 .carousel .slick-prev {
     left: -48px;
 }
@@ -988,7 +956,19 @@ small{
 .social-container .slider-button>button {
     background-color: transparent;
     border: none;
-    outline: none;
+}
+._ufjrdd {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(54, 59, 66);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    user-select: none;
+}
+.carousel .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0;
 }
 .carousel .slick-track {
     width: 5000px;
@@ -997,16 +977,8 @@ small{
     left: 0;
     display: block;
 }
-
-._ufjrdd {
-    display: inline-block;
-    vertical-align: middle;
-    color: rgb(54, 59, 66);
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-    user-select: none;
-}
-svg:not(:root) {
-    overflow: hidden;
+.carousel .slick-slider .slick-list, .carousel .slick-slider .slick-track {
+    transform: translateZ(0);
 }
 .carousel .slick-slide {
     display: none;
@@ -1017,65 +989,78 @@ svg:not(:root) {
 .carousel .slick-initialized .slick-slide {
     display: block;
 }
-@media screen and (max-width: 430px){
-    .slick-current{
-        outline: none;
-        width: 300px;
+@media screen and (max-width: 824px){
+    ._h5yh38 {
+        max-width: 95vw;
     }
 }
-.social-item {
-    text-align: center;
+
+@media screen and (max-width: 608px){
+    ._h5yh38 {
+        max-width: 90vw;
+    }
+}
+._h5yh38 {
+    position: relative;
+    width: 270px;
+    padding-bottom: 74.8148%;
+    height: 0px;
+}
+@media screen and (max-width: 824px){
+    ._h5yh38 {
+        max-width: 95vw;
+    }
+}
+@media screen and (max-width: 608px){
+    ._h5yh38 {
+        max-width: 90vw;
+    }
 }
 
+
+.social-item{
+    text-align: center;
+}
 .social-item_container{
     color: #1f1f1f;
     display: block;
     margin: 0 auto;
     max-width: 270px;
 }
-.social-item_image {
+.social-item_img {
     display: inline-block;
     height: 210px;
     max-width: 270px;
 }
-.social-item_name {
-    font-family:'opensas-700';
+.social-item_name{
+    font-family: 'opensas-700';
     font-size: 20px;
     line-height: 27px;
 }
-.social-item_subtitle, .social-item_title{
-    font-family: 'opensas-regular';
+.social-item_subtitle, .social-item_title {
+    font-family:'opensas-regular';
     font-size: 14px;
     line-height: 24px;
 }
 .social-item_body{
-    font-family:'opensas-regular' ;
+    font-family: 'opensas-regular';
     font-size: 16px;
     line-height: 32px;
     text-align: left;
 }
-.carousel .slick-next {
-    right: -48px;
 }
-.carousel .slick-next, .carousel .slick-prev {
-    width: 48px;
-    height: 100%;
+.social-item_img img {
+    width: 100%;
+}
+.carousel .slick-slide img {
+    display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* @media screen and (max-width: 1300px){
+    .special{
+        width: 304px;
+    }
+} */
 
 
 
