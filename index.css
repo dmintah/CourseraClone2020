@@ -138,6 +138,58 @@ p {
 
 
 
+
+
+
+
+.mobileheader{
+    height: 65px;
+}
+.mobileheader .mobile-header-controls-with-jff-btn {
+    align-items: center;
+}
+.mobileheader .c-mobile-header-controls {
+    position: relative;
+    height: 65px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 0 15px;
+    width: 100vw;
+}
+.mobile-header-logo-with-jff {
+    margin-left: 40px;
+}
+
+.c-mobile-toggle-button {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 14px;
+    border: none;
+    background-color: transparent;
+}
+.align-items-vertical-center, .search-bar .input-area {
+    align-items: center;
+}
+.mobileheader .c-mobile-header-controls .mobile-search-icon {
+    position: absolute;
+    bottom: 17px;
+    right: 50px;
+    padding: 0;
+}
+.mobileheader .c-mobile-header-controls .mobile-search-icon svg {
+    height: 18px;
+    width: 18px;
+}
+
+
+
+
+
+
+
+
+
+
 .partner-logos{
     margin: 30px auto;
     max-width: 1152px;
