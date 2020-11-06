@@ -2180,3 +2180,17 @@ a.link-button.primary {
 .join{
     color:white;
 }
+
+
+
+
+@media screen and (max-width: 1500px){
+    .pageheader{
+        display: none;
+    }
+}
+@media screen and (min-width: 1500px){
+    .mobileheader{
+        display: none;
+    }
+}
