@@ -970,7 +970,7 @@ small{
 }
 @media screen and (min-width: 608px){
     .carousel.stepped .slick-slider {
-        width: 456px;
+        width: 304px;
     }
 }
 @media screen and (min-width: 824px){
@@ -1231,11 +1231,6 @@ small{
     }
 }
 
-@media screen and (max-width: 768px){
-    .EnterpriseCta_logos-container, .EnterpriseCta_text-cta-container {
-        max-width: 430px;
-    }
-}
 
 .EnterpriseCta_logos-caption {
     align-items: center;
@@ -1547,7 +1542,7 @@ a.link-button.primary:hover{
         width: calc(50% - 24px);
     }
 }
-@media screen and (min-width: 608px){
+@media screen and (min-width: 769px){
     ._1tq0j5yr {
         width: 50%;
     }
@@ -1570,7 +1565,7 @@ a.link-button.primary:hover{
         width: calc(50% - 24px);
     }
 }
-@media screen and (min-width: 608px){
+@media screen and (min-width: 769px){
     ._1tq0j5yr {
         width: 50%;
     }
@@ -1822,7 +1817,7 @@ a.link-button.primary:hover{
 ._1l1hu98{
     min-width: 360px;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     left: 0px;
@@ -2184,13 +2179,27 @@ a.link-button.primary {
 
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
     .pageheader{
         display: none;
     }
 }
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1300px){
     .mobileheader{
         display: none;
     }
 }
+.special{
+    outline: none;
+    width: 304px;
+}
+@media screen and (min-width: 1500px){
+    .special{
+        width: 456px;
+    }
+}
+/* @media screen and (min-width: 1330px){
+    .special{
+        width: 304px;
+    }
+} */
