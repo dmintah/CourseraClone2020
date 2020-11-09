@@ -82,13 +82,53 @@
                 <div class="c-mobile-header-controls horizontal-box mobile-header-controls-with-jff-btn">
                     <span>
                         <nav>
-                            <button class="c-mobile-toggle-button">
+                            <button class="c-mobile-toggle-button" id="menu">
                                 <svg class="_ufjrdd" style="fill: rgb(54, 59, 66);height: 32px;width: 26px;">
                                     <polygon points="0 2 38 2 38 0 0 0" role="presentation"></polygon>
                                     <polygon points="0 16 38 16 38 14 0 14" role="presentation"></polygon>
                                     <polygon points="0 30 38 30 38 28 0 28" role="presentation"></polygon>
                                 </svg>
                             </button>
+                            <span class="nostyle">
+                                <ul class="mobile-header-menu show-nav" id="show-nav" style="display: none;">
+                                    <ul class="mobile-header-menu-child">
+                                        <div>
+                                            <div>
+                                                <li class="mobile-header-btn first">
+                                                    <a href="#">
+                                                        <span>Explore</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-header-btn">
+                                                    <a href="#">
+                                                        <span>For Enterprise</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-header-btn">
+                                                    <a href="#">
+                                                        <span>For Student</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-header-btn">
+                                                    <a href="#" class="signUp-btn mobile-auth-btn primary">
+                                                        <span>Join for Free</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mobile-header-btn">
+                                                    <a href="#" class="logIn-btn mobile-auth-btn">
+                                                        <span>Log In</span>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </ul>
+                                <span>
+                                    <span class="mobile-menu-overlay" id="show-nav" style="display:none;">
+                                        <button type="button" class="c-close-mobile-nav"></button>
+                                    </span>
+                                </span>
+                            </span>
                         </nav>
                     </span>
                     <a href="#" class="c-mobile-logo horizontal-box align-items-vertical-center mobile-header-logo-with-jff">

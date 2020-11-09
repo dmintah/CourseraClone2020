@@ -15,3 +15,22 @@
 //   }
 //   x[slideIndex-1].style.display = "block";  
 // }
+
+
+var label = document.getElementById('menu');
+
+label.onclick = function() {
+  console.log('show-nav')
+    var div = document.getElementById('show-nav');
+    if (div.style.display == 'block') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+};
+
+// const mobileNavHandler = document.getElementById("menu")
+// mobileNavHandler.addEventListener('click', function(){
+//   document.getElementById("show-nav").classList.toggle('mobile-toggle')
+// })
